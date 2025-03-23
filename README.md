@@ -20,14 +20,24 @@ btap02 của sv Hầu thị Thanh Huyền-k225480106027-hệ quản trị cơ s�
 
 #chọn bảng table chọn resh ![image](https://github.com/user-attachments/assets/d5e8a796-393c-4e51-a768-52a6cecc7535)
 
+#TẠO khóa ngoại cho Bảng BoMon ![image](https://github.com/user-attachments/assets/4404b3ef-0026-4494-8b67-e709551c2687)
+
+
 
 
 #tạo bảng dkmh ![image](https://github.com/user-attachments/assets/ab7cb6b0-22b5-47b8-8cd8-1ba179cf25f8)
 #Khi tạo xong các bảng đã yêu đầu tiếp theo là thiết lập Pk(primry key)=khóa chính, FK(foreign key)=khóa ngoại
 #CK(check constraint)=điều kiện
-#tạo khóa ngoại cho bảng GVCN nhấn chuột phải chọn relationship [image](https://github.com/user-attachments/assets/e9096135-f078-40ef-981c-7bc4f3022b43)
+
+#tạo khóa ngoại cho bảng GVCN nhấn chuột phải chọn relationship ![image](https://github.com/user-attachments/assets/2e7d42ab-fc7e-4676-8f98-5acf41ef4f96)
+![image](https://github.com/user-attachments/assets/42a6f9c9-a585-4d24-9854-949c38d2fb14)
+
+
 Nhấp chuột phải vào bảng DKMH, chọn Design.
-#Bước 2: Mở cài đặt khóa ngoại [image](https://github.com/user-attachments/assets/4ee5a9f0-fe24-44a1-ae78-d5f46d065093)
+#Bước 2: Mở cài đặt khóa ngoại ![image](https://github.com/user-attachments/assets/705205ce-5587-4f90-a5d4-7839cb808230
+![image](https://github.com/user-attachments/assets/3531eb86-41c1-4301-88d3-fc28b72466f7)
+
+
 Trong tab thiết kế, vào Table Designer trên thanh công cụ.
 Nhấp chuột phải vào bảng và chọn Relationships.
 #Bước 3: Thêm khóa ngoại
@@ -42,7 +52,8 @@ SinhVien.dkmh.maSV
 LopHP.dkmh.maLopHP
 #ket qua thu duoc ![image](https://github.com/user-attachments/assets/484b3860-4f02-48ae-84f8-2f8ebcfda3a8)
 
-tạo khóa ngoại cho bảng giaovien nhấn relationship ![image](https://github.com/user-attachments/assets/a5a146cc-8239-4010-85af-67ab5719236c)
+tạo khóa ngoại cho bảng giaovien nhấn relationship ![image](https://github.com/user-attachments/assets/38ed45ba-fd0c-4c76-9b25-eb1718e7ef9a)
+)
 chọn name đặt tên  ,chọn table and cumlomns nhấn dấu ... để xem khóa ngoại được thiết lập chưa 
 Thêm khóa ngoại
 Trong cửa sổ Foreign Key Relationships, nhấn Add.
@@ -51,8 +62,10 @@ Trong Primary Key Table, chọn bảng tham chiếu:
 Nếu tạo FK cho maBM thì chọn BoMon.
 
 
-#tao ma ngoại cho bảng lopHP ![image](https://github.com/user-attachments/assets/203c74a2-31f5-48c4-8574-db3f85b87216)
-![image](https://github.com/user-attachments/assets/b7b4a4bb-1626-4e15-95db-88a1c10534f4),![image](https://github.com/user-attachments/assets/9f2e8689-3aaf-487e-bfff-dc700076ff97)
+#tạo bảng lopHP![image](https://github.com/user-attachments/assets/00175fc1-b5a9-4889-bf62-300d2c038265)
+#tao ma ngoại cho bảng lopHP ![image](https://github.com/user-attachments/assets/9771ebd8-da91-40ae-93b5-1717d63cc5a1)
+#![Uploading image.png…]()
+
 Nhấp chuột phải vào bảng DKMH, chọn Design.
 #Bước 2: Mở cài đặt khóa ngoại
 Trong tab thiết kế, vào Table Designer trên thanh công cụ.
@@ -79,7 +92,9 @@ Nếu tạo Fkcho maMon thì chọn MonHoc.
 #chọn bảng Lop +csrip table as+create to+new ![image](https://github.com/user-attachments/assets/67705c84-6fb4-4f7e-8261-565f585e3d6a)
 # chính sửa Thêm IF OBJECT_ID('dbo.Lop', 'U') IS NOT NULL để kiểm tra xem bảng đã tồn tại chưa trước khi xóa, giúp tránh lỗi khi chạy nhiều lần.
 #kết quả thu được ![image](https://github.com/user-attachments/assets/c974b382-dc4c-44f1-93bc-a17ec2bff632)
-#Kết quả của Lop![image](https://github.com/user-attachments/assets/3b1dfbca-1cd6-44bc-b20e-fa3037add9e7)
+#Kết quả của SINHVIEN ![image](https://github.com/user-attachments/assets/452e638d-bf61-4da8-b245-ff6334ce7c44)
+
+
 
 
 
