@@ -13,18 +13,33 @@ btap02 của sv Hầu thị Thanh Huyền-k225480106027-hệ quản trị cơ s�
 #tạo bảng giaovien chọn khóa chính lưu bảng giaovien chọn table chọn resh![image](https://github.com/user-attachments/assets/9a29490f-b912-4fd8-9ad8-496789195add)
 #tạo bảng Bomon cũng làm như các bảng trên ![image](https://github.com/user-attachments/assets/d80992e7-5060-4c4e-9e77-d36e24a52dbb)
 #tạo bảng khoa ![image](https://github.com/user-attachments/assets/282db762-f5bd-47e9-a415-1f08242fd192)
+
 #tạo bảng Monhoc![image](https://github.com/user-attachments/assets/fb9e0cb2-0689-40bf-8931-3b4505fb602d)
+
 #tạo bảng lophocphan![image](https://github.com/user-attachments/assets/9208ef80-9103-40fd-b0d0-f4e330880e7f)
+
 #chọn bảng table chọn resh ![image](https://github.com/user-attachments/assets/d5e8a796-393c-4e51-a768-52a6cecc7535)
+
+
+
 #tạo bảng dkmh ![image](https://github.com/user-attachments/assets/ab7cb6b0-22b5-47b8-8cd8-1ba179cf25f8)
 #Khi tạo xong các bảng đã yêu đầu tiếp theo là thiết lập Pk(primry key)=khóa chính, FK(foreign key)=khóa ngoại
 #CK(check constraint)=điều kiện
 #tạo khóa ngoại cho bảng GVCN nhấn chuột phải chọn relationship ![image](https://github.com/user-attachments/assets/4ee5a9f0-fe24-44a1-ae78-d5f46d065093)
 #tạo khóa ngoại cho Lopsv nhận relationship ,chọn name đặt tên ,chọn table and cumlomns nhấn dấu ... để xem khóa ngoại được thiết lập chưa ![image](https://github.com/user-attachments/assets/e9096135-f078-40ef-981c-7bc4f3022b43)
 #ket qua thu duoc ![image](https://github.com/user-attachments/assets/484b3860-4f02-48ae-84f8-2f8ebcfda3a8)
-tạo khóa ngoại cho bảng giáo viên hận relationship ,chọn name đặt tên  ,chọn table and cumlomns nhấn dấu ... để xem khóa ngoại được thiết lập chưa ![image](https://github.com/user-attachments/assets/a5a146cc-8239-4010-85af-67ab5719236c)
-#tao ma ngoại cho bảng bộ môn ![image](https://github.com/user-attachments/assets/203c74a2-31f5-48c4-8574-db3f85b87216)
-#tạo mã khóa ngoại cho LopHP
+
+tạo khóa ngoại cho bảng giaovien nhấn relationship ![image](https://github.com/user-attachments/assets/a5a146cc-8239-4010-85af-67ab5719236c)
+chọn name đặt tên  ,chọn table and cumlomns nhấn dấu ... để xem khóa ngoại được thiết lập chưa 
+Thêm khóa ngoại
+Trong cửa sổ Foreign Key Relationships, nhấn Add.
+Chọn Tables And Columns Specification, nhấn vào dấu ....
+Trong Primary Key Table, chọn bảng tham chiếu:
+Nếu tạo FK cho maBM thì chọn BoMon.
+
+
+#tao ma ngoại cho bảng lopHP ![image](https://github.com/user-attachments/assets/203c74a2-31f5-48c4-8574-db3f85b87216)
+![image](https://github.com/user-attachments/assets/b7b4a4bb-1626-4e15-95db-88a1c10534f4),![image](https://github.com/user-attachments/assets/9f2e8689-3aaf-487e-bfff-dc700076ff97)
 Nhấp chuột phải vào bảng DKMH, chọn Design.
 #Bước 2: Mở cài đặt khóa ngoại
 Trong tab thiết kế, vào Table Designer trên thanh công cụ.
@@ -33,11 +48,12 @@ Nhấp chuột phải vào bảng và chọn Relationships.
 Trong cửa sổ Foreign Key Relationships, nhấn Add.
 Chọn Tables And Columns Specification, nhấn vào dấu ....
 Trong Primary Key Table, chọn bảng tham chiếu:
-Nếu tạo FK cho maKhoa thì chọn Khoa.
+Nếu tạo FK cho maGV thì chọn giaovien
+Nếu tạo Fkcho maMon thì chọn MonHoc.
 
-Trong Foreign Key Table, chọn bảng DKMH.![image](https://github.com/user-attachments/assets/b7b4a4bb-1626-4e15-95db-88a1c10534f4),![image](https://github.com/user-attachments/assets/9f2e8689-3aaf-487e-bfff-dc700076ff97)
 
 #tạo khóa ngoại cho dkmh Trong Object Explorer, mở Database chứa bảng DKMH.
+![image](https://github.com/user-attachments/assets/1ff18a6c-a8dd-4efb-95e8-ba1351e7c517)
 Nhấp chuột phải vào bảng DKMH, chọn Design.
 #Bước 2: Mở cài đặt khóa ngoại
 Trong tab thiết kế, vào Table Designer trên thanh công cụ.
@@ -52,8 +68,8 @@ Trong Foreign Key Table, chọn bảng DKMH.
 #Chọn cột phù hợp:
 SinhVien.dkmh.maSV
 LopHP.dkmh.maLopHP
-Nhấn OK để xác nhận.
-![image](https://github.com/user-attachments/assets/1ff18a6c-a8dd-4efb-95e8-ba1351e7c517)
+
+
 
 
 
