@@ -70,6 +70,22 @@ Nếu tạo Fkcho maMon thì chọn MonHoc.
 
 #Đặt điều kiện cho MonHoc (STC>=(1) AND STC<=(10)) ![image](https://github.com/user-attachments/assets/266d39fc-d944-44cd-be2c-e205a517bb01)
 #kết quả để STC dữ liệu của môn Văn quá 10 STC là bị lỗi ![image](https://github.com/user-attachments/assets/4b44bf3c-86b8-4d02-bd58-b8ce2b723cd6)
+#chọn bảng sv lựa chọn crips table as ![image](https://github.com/user-attachments/assets/3252de9c-36aa-42e6-bbd8-3a75e94e15f7)
+
+# dùng lệnh DROP TABLE IF EXISTS sinhvien để xóa đi bảng svien và tạo lại 1 bảng mới ![image](https://github.com/user-attachments/assets/48ce5802-229b-459c-9801-b2f3d303ff92)
+# và bôi đen đoạn code va điền thông tin vừa tạo kết quả ![image](https://github.com/user-attachments/assets/375aae15-1c06-485c-b490-b82e2d22eae5)
+
+
+#chọn bảng Lop +csrip table as+create to+new ![image](https://github.com/user-attachments/assets/67705c84-6fb4-4f7e-8261-565f585e3d6a)
+# chính sửa Thêm IF OBJECT_ID('dbo.Lop', 'U') IS NOT NULL để kiểm tra xem bảng đã tồn tại chưa trước khi xóa, giúp tránh lỗi khi chạy nhiều lần.
+#kết quả thu được ![image](https://github.com/user-attachments/assets/c974b382-dc4c-44f1-93bc-a17ec2bff632)
+#Kết quả của Lop![image](https://github.com/user-attachments/assets/3b1dfbca-1cd6-44bc-b20e-fa3037add9e7)
+
+
+
+
+
+
 
 
 
