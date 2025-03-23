@@ -25,8 +25,21 @@ btap02 của sv Hầu thị Thanh Huyền-k225480106027-hệ quản trị cơ s�
 #tạo bảng dkmh ![image](https://github.com/user-attachments/assets/ab7cb6b0-22b5-47b8-8cd8-1ba179cf25f8)
 #Khi tạo xong các bảng đã yêu đầu tiếp theo là thiết lập Pk(primry key)=khóa chính, FK(foreign key)=khóa ngoại
 #CK(check constraint)=điều kiện
-#tạo khóa ngoại cho bảng GVCN nhấn chuột phải chọn relationship ![image](https://github.com/user-attachments/assets/4ee5a9f0-fe24-44a1-ae78-d5f46d065093)
-#tạo khóa ngoại cho Lopsv nhận relationship ,chọn name đặt tên ,chọn table and cumlomns nhấn dấu ... để xem khóa ngoại được thiết lập chưa ![image](https://github.com/user-attachments/assets/e9096135-f078-40ef-981c-7bc4f3022b43)
+#tạo khóa ngoại cho bảng GVCN nhấn chuột phải chọn relationship [image](https://github.com/user-attachments/assets/e9096135-f078-40ef-981c-7bc4f3022b43)
+Nhấp chuột phải vào bảng DKMH, chọn Design.
+#Bước 2: Mở cài đặt khóa ngoại [image](https://github.com/user-attachments/assets/4ee5a9f0-fe24-44a1-ae78-d5f46d065093)
+Trong tab thiết kế, vào Table Designer trên thanh công cụ.
+Nhấp chuột phải vào bảng và chọn Relationships.
+#Bước 3: Thêm khóa ngoại
+Trong cửa sổ Foreign Key Relationships, nhấn Add.
+Chọn Tables And Columns Specification, nhấn vào dấu ....
+Trong Primary Key Table, chọn bảng tham chiếu:
+Nếu tạo FK cho maSV thì chọn SinhVien.
+Nếu tạo FK cho maLopHP thì chọn LopHocPhan.
+Trong Foreign Key Table, chọn bảng DKMH.
+#Chọn cột phù hợp:
+SinhVien.dkmh.maSV
+LopHP.dkmh.maLopHP
 #ket qua thu duoc ![image](https://github.com/user-attachments/assets/484b3860-4f02-48ae-84f8-2f8ebcfda3a8)
 
 tạo khóa ngoại cho bảng giaovien nhấn relationship ![image](https://github.com/user-attachments/assets/a5a146cc-8239-4010-85af-67ab5719236c)
@@ -51,23 +64,18 @@ Trong Primary Key Table, chọn bảng tham chiếu:
 Nếu tạo FK cho maGV thì chọn giaovien
 Nếu tạo Fkcho maMon thì chọn MonHoc.
 
+#Đặt điều kiện cho Diemphantram ,(Diemphantram >= 0 and Diemphantram<= 100 )![image](https://github.com/user-attachments/assets/c0dfe62a-29ec-4adb-b9d7-02b829492d92
+#kết quả thu được để số Diemphantram lớn hơn 100 sẽ báo lỗi ![image](https://github.com/user-attachments/assets/72a1ba99-dff2-4613-86ee-9437ecf38ef1)
+#khi để kqu đúng sẽ nhập được các dữ liệu tiếp ![image](https://github.com/user-attachments/assets/de850d04-a37c-44ca-8004-a1199a41a07b)
 
-#tạo khóa ngoại cho dkmh Trong Object Explorer, mở Database chứa bảng DKMH.
-![image](https://github.com/user-attachments/assets/1ff18a6c-a8dd-4efb-95e8-ba1351e7c517)
-Nhấp chuột phải vào bảng DKMH, chọn Design.
-#Bước 2: Mở cài đặt khóa ngoại
-Trong tab thiết kế, vào Table Designer trên thanh công cụ.
-Nhấp chuột phải vào bảng và chọn Relationships.
-#Bước 3: Thêm khóa ngoại
-Trong cửa sổ Foreign Key Relationships, nhấn Add.
-Chọn Tables And Columns Specification, nhấn vào dấu ....
-Trong Primary Key Table, chọn bảng tham chiếu:
-Nếu tạo FK cho maSV thì chọn SinhVien.
-Nếu tạo FK cho maLopHP thì chọn LopHocPhan.
-Trong Foreign Key Table, chọn bảng DKMH.
-#Chọn cột phù hợp:
-SinhVien.dkmh.maSV
-LopHP.dkmh.maLopHP
+#Đặt điều kiện cho MonHoc (STC>=(1) AND STC<=(10)) ![image](https://github.com/user-attachments/assets/266d39fc-d944-44cd-be2c-e205a517bb01)
+#kết quả để STC dữ liệu của môn Văn quá 10 STC là bị lỗi ![image](https://github.com/user-attachments/assets/4b44bf3c-86b8-4d02-bd58-b8ce2b723cd6)
+
+
+
+
+
+
 
 
 
