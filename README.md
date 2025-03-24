@@ -64,7 +64,7 @@ Nếu tạo FK cho maBM thì chọn BoMon.
 
 #tạo bảng lopHP![image](https://github.com/user-attachments/assets/00175fc1-b5a9-4889-bf62-300d2c038265)
 #tao ma ngoại cho bảng lopHP ![image](https://github.com/user-attachments/assets/9771ebd8-da91-40ae-93b5-1717d63cc5a1)
-#![Uploading image.png…]()
+#![image](https://github.com/user-attachments/assets/f111a1ea-eed8-4cc7-a266-4b951d0057f4)
 
 Nhấp chuột phải vào bảng DKMH, chọn Design.
 #Bước 2: Mở cài đặt khóa ngoại
@@ -93,6 +93,18 @@ Nếu tạo Fkcho maMon thì chọn MonHoc.
 # chính sửa Thêm IF OBJECT_ID('dbo.Lop', 'U') IS NOT NULL để kiểm tra xem bảng đã tồn tại chưa trước khi xóa, giúp tránh lỗi khi chạy nhiều lần.
 #kết quả thu được ![image](https://github.com/user-attachments/assets/c974b382-dc4c-44f1-93bc-a17ec2bff632)
 #Kết quả của SINHVIEN ![image](https://github.com/user-attachments/assets/452e638d-bf61-4da8-b245-ff6334ce7c44)
+
+
+#CÁC BƯỚC LƯU FILE SCRIP.DML.sql
+1.![image](https://github.com/user-attachments/assets/318d7cb2-a4dc-4634-b0c9-4e66fa0e7ae7)
+2.![image](https://github.com/user-attachments/assets/d77a8b14-cd4e-4614-b0d9-34c5c29735cd)
+3.![image](https://github.com/user-attachments/assets/131d94a0-ffb8-4a6a-a111-ed5ac7ecfd45)
+4.![image](https://github.com/user-attachments/assets/f0f50c3a-fa39-4475-8c06-7b1a78f2360b)
+5.![Uploading image.png…]()
+Đây là file scrip.DML.sql của em 
+
+
+
 
 
 
