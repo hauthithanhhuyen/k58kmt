@@ -7,6 +7,33 @@
 # Thông tin bảng Môn Học ![image](https://github.com/user-attachments/assets/f73d1253-7029-470b-83b8-1fe18b02ae40) 
 # ![image](https://github.com/user-attachments/assets/5e73559a-eadf-490c-b42a-be92bb9cf114) có mamon giống nhau.
 #
-# Dữ liệu các đề mô của bảng ![image](https://github.com/user-attachments/assets/d2c0d6ea-6a45-4a37-b8a5-fdb5bf51c08a)
+# Dữ liệu các đề mô của bảng
+#SELECT 
+  
+      DKMH.MaSV MSSV, 
+      
+      LopHP.MaLopHP [Mã lớp HP], 
+      
+      LopHP.TenLopHP [Tên lớp HP], 
+      
+      DKMH.DiemThi [Điểm thi], 
+      
+      DKMH.PhanTramThi [Phần trăm thi], 
+      
+     COUNT(Diem.diem) AS [Số điểm thành phần],
+   
+      AVG(Diem.diem) AS [Điểm thành phần]
+      
+  FROM DKMH
+  
+  LEFT JOIN Diem ON DKMH.id_dk = Diem.id_dk
+  
+  JOIN LopHP ON DKMH.MaLopHP = LopHP.MaLopHP
+  
+  GROUP BY DKMH.MaSV, LopHP.MaLopHP, LopHP.TenLopHP, DKMH.DiemThi, DKMH.PhanTramThi
+  
+  ORDER BY LopHP.MaLopHP;
+
+# Dữ liệu bảng truy vấn ![image](https://github.com/user-attachments/assets/9c63d063-65ff-49e9-b687-42b19c91200d)
 
 
